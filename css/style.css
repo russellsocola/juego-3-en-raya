@@ -1,0 +1,70 @@
+*{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 2rem;
+    text-align: center;
+}
+.parrafo{
+    text-align: center;
+}
+main{
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+}
+.parrafo_ganador{
+    color: aqua;
+    display: none;
+    font-size: 6rem;
+}
+
+.container{
+    height: 70vh;
+    width: 80vw;
+    max-width: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 1rem;
+    text-align: center;
+}
+.container_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 30rem;
+    margin: auto;
+}
+.box{
+    font-size: 2rem;
+    width:10rem;
+    height: 10rem;
+    border: 1px solid rgb(168, 168, 168);
+    text-align: center;
+    color:rgb(7, 255, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black ;
+    transition: background-color ease-in 0.2s;
+}
+.box:hover{
+    color: #cccc;
+}
+.renew{
+    display:inline-flex;
+    padding: 1rem 1rem;
+    background:url('../img/hogar.png');
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    font-weight: bold;
+    transition:color ease-out 0.3s;
+};
